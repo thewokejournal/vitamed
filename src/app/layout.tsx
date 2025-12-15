@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   description:
     "Rolf Valley Pharmacy is a neighbourhood pharmacy in Borrowdale offering chronic medication, premium skincare, mother & baby essentials, and same-day delivery with 24/7 stock queries via WhatsApp and AI voice agent.",
   icons: {
-    icon: "/logo.png",
+    icon: "/favicon.png",
   },
 };
 
