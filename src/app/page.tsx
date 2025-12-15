@@ -110,16 +110,16 @@ export default function Home() {
                   NEW
                 </Badge>
               </div>
-              <h1 className={`text-6xl font-bold text-foreground leading-tight`}>
+              <h1 className={`text-4xl md:text-6xl font-bold text-foreground leading-tight`}>
                 Your Neighbourhood
                 <br />
                 <span className="text-muted-foreground">Pharmacy in Borrowdale</span>
               </h1>
-              <p className={`text-lg text-muted-foreground max-w-md`}>
+              <p className={`text-lg text-muted-foreground max-w-full md:max-w-md`}>
                 Quality medication, fast service, and same-day delivery across Rolf Valley and surrounding suburbs.
               </p>
               <div className="flex flex-wrap items-center gap-4">
-                <Button className="bg-[#0B7138] hover:bg-[#095c30] text-white px-8 py-6 text-lg">
+                <Button className="bg-[#0B7138] hover:bg-[#095c30] text-white px-6 py-3 md:px-8 md:py-6 text-base md:text-lg">
                   Order Now
                   <ChevronRight className="w-5 h-5 ml-2" />
                 </Button>
@@ -133,8 +133,8 @@ export default function Home() {
                   <Phone className="w-4 h-4" /> Call 24/7 Voice Agent
                 </a>
               </div>
-                <div className={`bg-card p-6 rounded-2xl shadow-lg inline-block`}>
-                  <div className={`text-5xl font-bold text-foreground`}>24/7</div>
+                <div className={`bg-card p-4 md:p-6 rounded-2xl shadow-lg w-full md:w-auto text-center`}> 
+                  <div className={`text-4xl md:text-5xl font-bold text-foreground`}>24/7</div>
                   <div className={`text-sm text-muted-foreground mt-1`}>Stock Checking Support</div>
                 </div>
             </div>
