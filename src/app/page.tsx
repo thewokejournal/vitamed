@@ -165,7 +165,7 @@ export default function Home() {
                 color: "#E8F5E9",
               },
               {
-                name: "Kidney Care",
+                name: "Digestive Health",
                 image: "https://ugc.same-assets.com/MjkkwgnViWDccC1zx_IPB57sZiFABwmq.jpeg",
                 color: "#E3F2FD",
               },
@@ -474,17 +474,17 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {[
               {
-                title: "Headache And Migraine Solutions",
+                title: "Headache & Migraine Solutions",
                 image: "https://ugc.same-assets.com/8XphXz4087R9qHIzuMJlxf55o1cS3RoW.jpeg",
                 color: "#F3E5F5",
               },
               {
-                title: "Headache And Migraine Solutions",
+                title: "Cold & Flu Relief",
                 image: "https://ugc.same-assets.com/G1IBBzyrkLW3aLe_q8q6rDRqeVcNPkp9.jpeg",
-                color: "#FFE0B2",
+                color: "#E3F2FD",
               },
               {
-                title: "Headache And Migraine Solutions",
+                title: "Allergy Relief Essentials",
                 image: "https://ugc.same-assets.com/Fj4c_U76iqOmMf7PMmrnmvezmuP4AZEd.jpeg",
                 color: "#FFEBEE",
               },
