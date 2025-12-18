@@ -15,9 +15,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Vitamed Pharmacy — Harare CBD, Zimbabwe | Supporting Better Health, Every Day",
+  title: "The Medicine Chest Pharmacy — Harare, Zimbabwe | Trusted Care for Every Family",
   description:
-    "Vitamed Pharmacy is a licensed pharmacy in Harare CBD offering prescription dispensing, chronic medication management, wellness support, same-day delivery, and free blood pressure monitoring. Regulated by the Pharmacists Council of Zimbabwe.",
+    "The Medicine Chest Pharmacy is a well-established community pharmacy with multiple branches across Harare, offering reliable access to quality medicines, professional pharmaceutical services, and personalised care. Regulated by the Pharmacists Council of Zimbabwe.",
   icons: {
     icon: "/favicon.png",
   },

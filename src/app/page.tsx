@@ -56,8 +56,8 @@ export default function Home() {
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-2">
-              <img src="/logo.png" alt="Vitamed Pharmacy Logo" className="w-10 h-10 rounded-lg object-cover" />
-              <span className="text-2xl font-bold text-foreground">Vitamed Pharmacy</span>
+              <img src="/logo.png" alt="The Medicine Chest Pharmacy Logo" className="w-10 h-10 rounded-lg object-cover" />
+              <span className="text-2xl font-bold text-foreground">The Medicine Chest Pharmacy</span>
             </div>
             <div className="hidden md:flex items-center gap-8">
               <a href="#home" className={`text-muted-foreground hover:text-primary`}>
@@ -111,31 +111,31 @@ export default function Home() {
                 </Badge>
               </div>
               <h1 className={`text-4xl md:text-6xl font-bold text-foreground leading-tight`}>
-                Supporting Better Health,
+                Trusted Care
                 <br />
-                <span className="text-muted-foreground">Every Day</span>
+                <span className="text-muted-foreground">for Every Family</span>
               </h1>
               <p className={`text-lg text-muted-foreground max-w-full md:max-w-md`}>
-                Licensed pharmacy serving Harare CBD with prescription dispensing, chronic medication management, and same-day delivery across Harare.
+                Well-established community pharmacy with multiple branches across Harare, offering reliable access to quality medicines and professional pharmaceutical services.
               </p>
               <div className="flex flex-wrap items-center gap-4">
                 <Button className="bg-[#0B7138] hover:bg-[#095c30] text-white px-6 py-3 md:px-8 md:py-6 text-base md:text-lg">
-                  WhatsApp Your Prescription
+                  Find a Branch
                   <ChevronRight className="w-5 h-5 ml-2" />
                 </Button>
-                <a href="https://wa.me/263773210987?text=Hi%20Vitamed%20Pharmacy%2C%20please%20check%20stock%20for..." className={`inline-flex items-center gap-2 rounded-full border px-6 py-3 text-sm font-medium border-border text-muted-foreground hover:bg-popover`}>
-                  <Search className="w-4 h-4" /> Check Stock (WhatsApp)
+                <a href="https://wa.me/263774567890?text=Hi%20Medicine%20Chest%20Pharmacy%2C%20please%20check%20stock%20for..." className={`inline-flex items-center gap-2 rounded-full border px-6 py-3 text-sm font-medium border-border text-muted-foreground hover:bg-popover`}>
+                  <Search className="w-4 h-4" /> WhatsApp Your Prescription
                 </a>
                 <a
-                  href="tel:+263242321890"
+                  href="tel:+263242456789"
                   className={`inline-flex items-center gap-2 rounded-full border px-6 py-3 text-sm font-medium border-border text-muted-foreground hover:bg-popover`}
                 >
                   <Phone className="w-4 h-4" /> Speak to a Pharmacist
                 </a>
               </div>
                 <div className={`bg-card p-4 md:p-6 rounded-2xl shadow-lg w-full md:w-auto text-center`}> 
-                  <div className={`text-4xl md:text-5xl font-bold text-foreground`}>PCZ</div>
-                  <div className={`text-sm text-muted-foreground mt-1`}>Licensed & Regulated</div>
+                  <div className={`text-4xl md:text-5xl font-bold text-foreground`}>3</div>
+                  <div className={`text-sm text-muted-foreground mt-1`}>Branches Across Harare</div>
                 </div>
             </div>
             <div className="relative">
@@ -303,12 +303,12 @@ export default function Home() {
               {
                 icon: Pill,
                 name: "Prescription Dispensing",
-                desc: "Licensed dispensing with valid prescriptions",
+                desc: "Licensed dispensing at all branches",
               },
               {
                 icon: Heart,
-                name: "Chronic Medication Management",
-                desc: "Ongoing support for chronic condition management",
+                name: "Chronic Medication Refills",
+                desc: "Convenient refills across all locations",
               },
               {
                 icon: Leaf,
@@ -318,11 +318,11 @@ export default function Home() {
               {
                 icon: Thermometer,
                 name: "Free Blood Pressure Monitoring",
-                desc: "Complimentary BP checks during operating hours",
+                desc: "Complimentary BP checks at all branches",
               },
               {
                 icon: Baby,
-                name: "Diabetes Care & Support",
+                name: "Diabetes Care Support",
                 desc: "Blood glucose testing and diabetes management",
               },
               {
@@ -332,8 +332,8 @@ export default function Home() {
               },
               {
                 icon: Truck,
-                name: "Same-Day Delivery in Harare",
-                desc: "Fast delivery across Harare for your convenience",
+                name: "Inter-branch Stock Transfers",
+                desc: "Stock availability across all our branches",
               },
               {
                 icon: Phone,
@@ -357,7 +357,7 @@ export default function Home() {
       <section id="products" className={`py-20 bg-background`}>
         <div className="container mx-auto px-4">
           <h2 className={`text-4xl font-bold text-center text-foreground mb-4`}>Medicine Inventory</h2>
-          <p className={`text-center text-muted-foreground mb-12`}>Quality medicines for your health needs — Vitamed Pharmacy selection</p>
+          <p className={`text-center text-muted-foreground mb-12`}>Quality medicines available at all Medicine Chest branches</p>
           {(
             [
               {
@@ -391,23 +391,23 @@ export default function Home() {
                 ],
               },
               {
-                name: "Wellness & Home Care",
+                name: "Chronic & Home Care",
                 items: [
                   { n: "Blood Pressure Monitors", p: "Available" },
                   { n: "Glucometers & Test Strips", p: "Available" },
                   { n: "Nebulisers", p: "Available" },
-                  { n: "Digital Thermometers", p: "Available" },
+                  { n: "Thermometers", p: "Available" },
                 ],
               },
               {
-                name: "Vitamins & Immune Support",
+                name: "Vitamins & Supplements",
                 items: [
                   { n: "Vitamin C", p: "Available" },
                   { n: "Vitamin D3", p: "Available" },
                   { n: "Zinc", p: "Available" },
                   { n: "Multivitamins (Adults & Children)", p: "Available" },
-                  { n: "Iron Supplements", p: "Available" },
-                  { n: "Prenatal & Postnatal Vitamins", p: "Available" },
+                  { n: "Iron & Folic Acid", p: "Available" },
+                  { n: "Prenatal Supplements", p: "Available" },
                 ],
               },
               {
@@ -554,18 +554,18 @@ export default function Home() {
             {[
               {
                 rating: 5,
-                text: "Excellent service and very professional staff. They always have my chronic medication in stock and the pharmacist takes time to explain everything clearly.",
-                author: "M. Sibanda",
+                text: "The Medicine Chest has been my family's pharmacy for years. Excellent service at all their branches and the staff really care about their customers.",
+                author: "K. Chirwa",
               },
               {
                 rating: 5,
-                text: "Very reliable pharmacy in the CBD. Same-day delivery is a lifesaver when I can't leave the office. Highly recommend Vitamed!",
-                author: "R. Mutasa",
+                text: "Very convenient having multiple branches. I can pick up my medication at whichever location is closest. Professional and reliable service always.",
+                author: "F. Ndoro",
               },
               {
                 rating: 5,
-                text: "Great experience! The team is knowledgeable and friendly. They helped me understand my medication better. Will definitely come back.",
-                author: "T. Ncube",
+                text: "Great experience at the Borrowdale branch! The pharmacist took time to explain everything about my medication. Highly recommend The Medicine Chest.",
+                author: "J. Makoni",
               },
             ].map((review, index) => (
               <Card key={index} className={`p-6 bg-card border-border`}>
@@ -599,10 +599,10 @@ export default function Home() {
               <h2 className={`text-4xl font-bold text-foreground mb-4`}>
                 Same-day delivery within Harare
                 <br />
-                Scheduled deliveries for chronic patients
+                Coordinated from your nearest branch
               </h2>
               <Button className={`bg-white text-primary hover:bg-gray-100`}>
-                WhatsApp Your Prescription
+                Find a Branch
                 <ChevronRight className="w-4 h-4 ml-2" />
               </Button>
             </div>
@@ -668,11 +668,11 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
             <div>
               <div className="flex items-center gap-2 mb-4">
-                <img src="/logo.png" alt="Vitamed Pharmacy Logo" className="w-10 h-10 rounded-lg object-cover" />
-                <span className="text-xl font-bold">Vitamed Pharmacy</span>
+                <img src="/logo.png" alt="The Medicine Chest Pharmacy Logo" className="w-10 h-10 rounded-lg object-cover" />
+                <span className="text-xl font-bold">The Medicine Chest</span>
               </div>
               <p className="text-muted-foreground text-sm">
-                Supporting Better Health, Every Day
+                Trusted Care for Every Family
               </p>
             </div>
             <div>
@@ -681,38 +681,51 @@ export default function Home() {
                 <div className="flex items-start gap-2">
                   <Phone className="w-4 h-4 mt-1 flex-shrink-0" />
                   <div>
-                    <div>+263 242 321 890</div>
-                    <div className="text-xs">Main Line</div>
+                    <div>+263 242 456 789</div>
+                    <div className="text-xs">Harare CBD Branch</div>
                   </div>
                 </div>
                 <div className="flex items-start gap-2">
                   <Phone className="w-4 h-4 mt-1 flex-shrink-0" />
                   <div>
-                    <div>+263 77 321 0987</div>
+                    <div>+263 77 456 7890</div>
                     <div className="text-xs">WhatsApp Available</div>
                   </div>
                 </div>
                 <div className="flex items-start gap-2">
                   <Mail className="w-4 h-4 mt-1 flex-shrink-0" />
-                  <div>info@vitamedpharmacy.co.zw</div>
+                  <div>info@medicinechestpharmacy.co.zw</div>
                 </div>
               </div>
             </div>
             <div>
-              <h4 className="font-semibold mb-4">Location</h4>
+              <h4 className="font-semibold mb-4">Our Branches</h4>
               <div className="space-y-3 text-sm text-gray-400">
                 <div className="flex items-start gap-2">
                   <MapPin className="w-4 h-4 mt-1 flex-shrink-0" />
                   <div>
-                    <div className="font-medium text-white">Main Branch</div>
-                    <div>27 Jason Moyo Avenue</div>
-                    <div>Harare CBD, Zimbabwe</div>
+                    <div className="font-medium text-white">Harare CBD</div>
+                    <div>101 First Street, Harare CBD</div>
+                  </div>
+                </div>
+                <div className="flex items-start gap-2">
+                  <MapPin className="w-4 h-4 mt-1 flex-shrink-0" />
+                  <div>
+                    <div className="font-medium text-white">Borrowdale</div>
+                    <div>Borrowdale Village Shopping Centre</div>
+                  </div>
+                </div>
+                <div className="flex items-start gap-2">
+                  <MapPin className="w-4 h-4 mt-1 flex-shrink-0" />
+                  <div>
+                    <div className="font-medium text-white">Avondale</div>
+                    <div>Avondale Shopping Centre</div>
                   </div>
                 </div>
               </div>
             </div>
             <div>
-              <h4 className="font-semibold mb-4">Operating Hours</h4>
+              <h4 className="font-semibold mb-4">Operating Hours (All Branches)</h4>
               <div className="space-y-2 text-sm text-gray-400">
                 <div className="flex items-center gap-2">
                   <Clock className="w-4 h-4 flex-shrink-0" />
@@ -741,7 +754,7 @@ export default function Home() {
           <div className="border-t border-gray-800 pt-8">
             <div className="flex flex-col md:flex-row items-center justify-between gap-4">
               <p className="text-sm text-gray-400">
-                © 2025 Vitamed Pharmacy. All rights reserved. Licensed by Pharmacists Council of Zimbabwe.
+                © 2025 The Medicine Chest Pharmacy. All rights reserved. Licensed by Pharmacists Council of Zimbabwe.
               </p>
               <div className="flex items-center gap-6 text-sm text-gray-400">
                 <a href="#" className="hover:text-white">
@@ -758,10 +771,10 @@ export default function Home() {
 
       {/* WhatsApp Floating Button */}
       <a
-        href="https://wa.me/263773210987"
+        href="https://wa.me/263774567890"
         target="_blank"
         rel="noopener noreferrer"
-        aria-label="WhatsApp Vitamed Pharmacy"
+        aria-label="WhatsApp The Medicine Chest Pharmacy"
         className={`fixed bottom-6 right-6 w-16 h-16 bg-primary rounded-full flex items-center justify-center shadow-lg transition-colors duration-300 ease-in-out hover:opacity-95 z-50 relative`}
       >
         <span className="absolute -inset-1 rounded-full bg-primary opacity-20 animate-ping"></span>
@@ -782,7 +795,7 @@ export default function Home() {
 
       {/* Call Pharmacy Button */}
       <a
-        href="tel:+263242321890"
+        href="tel:+263242456789"
         className={`fixed bottom-40 right-6 bg-primary text-white px-6 py-3 rounded-full shadow-lg transition-opacity hover:opacity-90 z-50 flex items-center gap-2`}
       >
         <Phone className="w-5 h-5" />
