@@ -56,8 +56,8 @@ export default function Home() {
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-2">
-              <img src="/logo.png" alt="Rolf Valley Logo" className="w-10 h-10 rounded-lg object-cover" />
-              <span className="text-2xl font-bold text-foreground">Rolf Valley Pharmacy</span>
+              <img src="/logo.png" alt="Vitamed Pharmacy Logo" className="w-10 h-10 rounded-lg object-cover" />
+              <span className="text-2xl font-bold text-foreground">Vitamed Pharmacy</span>
             </div>
             <div className="hidden md:flex items-center gap-8">
               <a href="#home" className={`text-muted-foreground hover:text-primary`}>
@@ -75,7 +75,7 @@ export default function Home() {
             </div>
             <div className="flex items-center gap-4">
               <Button className="bg-[#0B7138] hover:bg-[#095c30] hidden md:flex">
-                Book Appointment
+                Order Medicines
                 <ChevronRight className="w-4 h-4 ml-1" />
               </Button>
               <button
@@ -111,31 +111,31 @@ export default function Home() {
                 </Badge>
               </div>
               <h1 className={`text-4xl md:text-6xl font-bold text-foreground leading-tight`}>
-                Your Neighbourhood
+                Supporting Better Health,
                 <br />
-                <span className="text-muted-foreground">Pharmacy in Borrowdale</span>
+                <span className="text-muted-foreground">Every Day</span>
               </h1>
               <p className={`text-lg text-muted-foreground max-w-full md:max-w-md`}>
-                Quality medication, fast service, and same-day delivery across Rolf Valley and surrounding suburbs.
+                Licensed pharmacy serving Harare CBD with prescription dispensing, chronic medication management, and same-day delivery across Harare.
               </p>
               <div className="flex flex-wrap items-center gap-4">
                 <Button className="bg-[#0B7138] hover:bg-[#095c30] text-white px-6 py-3 md:px-8 md:py-6 text-base md:text-lg">
-                  Order Now
+                  WhatsApp Your Prescription
                   <ChevronRight className="w-5 h-5 ml-2" />
                 </Button>
-                <a href="https://wa.me/263778894411?text=Hi%20Rolf%20Valley%20Pharmacy%2C%20please%20check%20stock%20for..." className={`inline-flex items-center gap-2 rounded-full border px-6 py-3 text-sm font-medium border-border text-muted-foreground hover:bg-popover`}>
+                <a href="https://wa.me/263773210987?text=Hi%20Vitamed%20Pharmacy%2C%20please%20check%20stock%20for..." className={`inline-flex items-center gap-2 rounded-full border px-6 py-3 text-sm font-medium border-border text-muted-foreground hover:bg-popover`}>
                   <Search className="w-4 h-4" /> Check Stock (WhatsApp)
                 </a>
                 <a
-                  href="tel:+263715552211"
+                  href="tel:+263242321890"
                   className={`inline-flex items-center gap-2 rounded-full border px-6 py-3 text-sm font-medium border-border text-muted-foreground hover:bg-popover`}
                 >
-                  <Phone className="w-4 h-4" /> Call 24/7 Voice Agent
+                  <Phone className="w-4 h-4" /> Speak to a Pharmacist
                 </a>
               </div>
                 <div className={`bg-card p-4 md:p-6 rounded-2xl shadow-lg w-full md:w-auto text-center`}> 
-                  <div className={`text-4xl md:text-5xl font-bold text-foreground`}>24/7</div>
-                  <div className={`text-sm text-muted-foreground mt-1`}>Stock Checking Support</div>
+                  <div className={`text-4xl md:text-5xl font-bold text-foreground`}>PCZ</div>
+                  <div className={`text-sm text-muted-foreground mt-1`}>Licensed & Regulated</div>
                 </div>
             </div>
             <div className="relative">
@@ -160,32 +160,32 @@ export default function Home() {
           <div className="grid grid-cols-2 md:grid-cols-6 gap-8">
             {[
               {
-                name: "Kidney Care",
+                name: "Prescription Medicines",
                 image: "https://ugc.same-assets.com/huodsVniB-8JgoyyzyV7xjPr5d2KgeId.jpeg",
                 color: "#E8F5E9",
               },
               {
-                name: "Digestive Health",
+                name: "Chronic Care",
                 image: "https://ugc.same-assets.com/MjkkwgnViWDccC1zx_IPB57sZiFABwmq.jpeg",
                 color: "#E3F2FD",
               },
               {
-                name: "Liver Care",
+                name: "Vitamins & Supplements",
                 image: "https://ugc.same-assets.com/aRNT5oPPqKK1l-aQ_X-SPEq_jewIaaT9.jpeg",
                 color: "#E8F5E9",
               },
               {
-                name: "Physiology Care",
+                name: "Personal Care",
                 image: "https://ugc.same-assets.com/hTAzwn_8o04Yb5JP_AvGNa7nIYTKac82.jpeg",
                 color: "#FFE0B2",
               },
               {
-                name: "Sleep Care",
+                name: "Diabetes Care",
                 image: "https://ugc.same-assets.com/YAN9PxeSqF7_VymBQ3wqUuBWlKGa-xH5.jpeg",
                 color: "#F3E5F5",
               },
               {
-                name: "Pregnant Care",
+                name: "Baby Care",
                 image: "https://ugc.same-assets.com/kk_JaZuPlX__V_QqKxd8hu-qBSdiqzTR.jpeg",
                 color: "#FFEBEE",
               },
@@ -225,25 +225,25 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
             {[
               {
-                name: "Immune Booster Combo Pack",
-                price: "$10.00",
+                name: "Panado (Paracetamol)",
+                price: "Available",
                 image:
                   "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=400&h=400&fit=crop",
               },
               {
-                name: "Omega 3 Fish Oil",
-                price: "$12.00",
+                name: "Vitamin C Tablets",
+                price: "Available",
                 image:
                   "https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?w=400&h=400&fit=crop",
               },
               {
-                name: "Vitamin C 1000mg",
-                price: "$6.00",
+                name: "Benylin Cough Syrup",
+                price: "Available",
                 image: "/products/vitamin-c-1000mg.svg",
               },
               {
-                name: "Revivo Multi-Vitamin",
-                price: "$9.00",
+                name: "Multivitamins",
+                price: "Available",
                 image:
                   "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?w=400&h=400&fit=crop",
               },
@@ -252,7 +252,7 @@ export default function Home() {
                 <div className="relative">
                   <div className="absolute top-4 left-4 z-10">
                     <Badge className={`bg-white text-gray-900 hover:bg-opacity-80 dark:bg-card dark:text-foreground`}>
-                      Nature's bounty
+                      In Stock
                     </Badge>
                   </div>
                   <div className="absolute top-4 right-4 z-10">
@@ -281,7 +281,7 @@ export default function Home() {
                       className="bg-[#0B7138] hover:bg-[#095c30]"
                     >
                       <ShoppingCart className="w-4 h-4 mr-2" />
-                      Order Now
+                      WhatsApp Order
                     </Button>
                   </div>
                 </div>
@@ -302,43 +302,43 @@ export default function Home() {
             {[
               {
                 icon: Pill,
-                name: "Prescription Dispensing & Chronic Disease Management",
-                desc: "Chronic medication refills and ongoing disease support",
+                name: "Prescription Dispensing",
+                desc: "Licensed dispensing with valid prescriptions",
               },
               {
                 icon: Heart,
-                name: "Over-The-Counter (OTC) Medicine",
-                desc: "Everyday medicine and symptom relief",
+                name: "Chronic Medication Management",
+                desc: "Ongoing support for chronic condition management",
               },
               {
                 icon: Leaf,
-                name: "Wellness & Nutritional Supplements",
-                desc: "Premium imported health supplements",
+                name: "Medication Counselling",
+                desc: "Professional guidance on medication use",
               },
               {
                 icon: Thermometer,
-                name: "Premium Beauty & Skincare",
-                desc: "Dermatologist-recommended brands",
+                name: "Free Blood Pressure Monitoring",
+                desc: "Complimentary BP checks during operating hours",
               },
               {
                 icon: Baby,
-                name: "Mother & Baby Essentials",
-                desc: "Formula, nappies, baby care and essentials",
+                name: "Diabetes Care & Support",
+                desc: "Blood glucose testing and diabetes management",
               },
               {
                 icon: Stethoscope,
-                name: "Diagnostics & Checks",
-                desc: "BP checks, sugar tests and basic screening",
+                name: "Minor Ailment Advice",
+                desc: "Professional advice for common health issues",
               },
               {
                 icon: Truck,
-                name: "Same-Day Delivery",
-                desc: "Same-day delivery across Borrowdale & surrounds",
+                name: "Same-Day Delivery in Harare",
+                desc: "Fast delivery across Harare for your convenience",
               },
               {
                 icon: Phone,
-                name: "24/7 AI Voice Agent",
-                desc: "Real-time stock checks and hours",
+                name: "Corporate & Institutional Supply",
+                desc: "Bulk orders for organizations and businesses",
               },
             ].map((service, index) => (
               <Card key={index} className={`p-6 hover:shadow-lg transition-shadow cursor-pointer bg-card border-border`}>
@@ -356,92 +356,68 @@ export default function Home() {
       {/* Product Catalogue */}
       <section id="products" className={`py-20 bg-background`}>
         <div className="container mx-auto px-4">
-          <h2 className={`text-4xl font-bold text-center text-foreground mb-4`}>Mock Product Catalogue</h2>
-          <p className={`text-center text-muted-foreground mb-12`}>Curated premium and international products — Rolf Valley selection</p>
+          <h2 className={`text-4xl font-bold text-center text-foreground mb-4`}>Medicine Inventory</h2>
+          <p className={`text-center text-muted-foreground mb-12`}>Quality medicines for your health needs — Vitamed Pharmacy selection</p>
           {(
             [
               {
-                name: "Chronic Medication",
+                name: "Prescription Medicines",
                 items: [
-                  { n: "Telmi-H 40/12.5", p: "$18.00" },
-                  { n: "Amlodipine 5mg", p: "$4.00" },
-                  { n: "Jardiance 10mg", p: "$45.00" },
-                  { n: "Glucophage XR", p: "$8.00" },
-                  { n: "Insulin Lantus", p: "$32.00" },
-                  { n: "Rosuvastatin 10mg", p: "$14.00" },
-                  { n: "Losartan 100mg", p: "$12.00" },
+                  { n: "Amoxicillin 250mg / 500mg Capsules", p: "Prescription Only" },
+                  { n: "Augmentin 625mg Tablets", p: "Prescription Only" },
+                  { n: "Cefuroxime 500mg", p: "Prescription Only" },
+                  { n: "Ciprofloxacin 500mg", p: "Prescription Only" },
+                  { n: "Metformin 500mg / 850mg", p: "Prescription Only" },
+                  { n: "Gliclazide 80mg", p: "Prescription Only" },
+                  { n: "Amlodipine 5mg / 10mg", p: "Prescription Only" },
+                  { n: "Enalapril 10mg", p: "Prescription Only" },
+                  { n: "Losartan 50mg", p: "Prescription Only" },
+                  { n: "Atorvastatin 20mg", p: "Prescription Only" },
+                  { n: "Salbutamol Inhaler", p: "Prescription Only" },
+                  { n: "Insulin (Actrapid, Mixtard)", p: "Prescription Only" },
                 ],
               },
               {
-                name: "Pain & Fever",
+                name: "Over-the-Counter Medicines",
                 items: [
-                  { n: "Panado Extra Strength", p: "$3.00" },
-                  { n: "Ibuprofen 400mg", p: "$4.00" },
-                  { n: "Nurofen", p: "$6.00" },
-                  { n: "Myprodol Capsules", p: "$5.00" },
+                  { n: "Panado (Paracetamol)", p: "Available" },
+                  { n: "Ibuprofen", p: "Available" },
+                  { n: "Aspirin", p: "Available" },
+                  { n: "Lemsip Cold & Flu", p: "Available" },
+                  { n: "Benylin Cough Syrup", p: "Available" },
+                  { n: "Strepsils", p: "Available" },
+                  { n: "Antacid Tablets & Syrups", p: "Available" },
+                  { n: "ORS Sachets", p: "Available" },
                 ],
               },
               {
-                name: "Cold, Flu & Cough",
+                name: "Wellness & Home Care",
                 items: [
-                  { n: "ACC 600", p: "$7.00" },
-                  { n: "Coryx", p: "$4.00" },
-                  { n: "Vicks Inhaler", p: "$3.50" },
-                  { n: "Benylin Dry Cough", p: "$7.00" },
+                  { n: "Blood Pressure Monitors", p: "Available" },
+                  { n: "Glucometers & Test Strips", p: "Available" },
+                  { n: "Nebulisers", p: "Available" },
+                  { n: "Digital Thermometers", p: "Available" },
                 ],
               },
               {
-                name: "Stomach & Digestion",
+                name: "Vitamins & Immune Support",
                 items: [
-                  { n: "Buscopan", p: "$5.00" },
-                  { n: "Gaviscon Liquid", p: "$8.00" },
-                  { n: "Smecta", p: "$3.00" },
-                  { n: "Vitality Probiotics (Premium)", p: "$12.00" },
+                  { n: "Vitamin C", p: "Available" },
+                  { n: "Vitamin D3", p: "Available" },
+                  { n: "Zinc", p: "Available" },
+                  { n: "Multivitamins (Adults & Children)", p: "Available" },
+                  { n: "Iron Supplements", p: "Available" },
+                  { n: "Prenatal & Postnatal Vitamins", p: "Available" },
                 ],
               },
               {
-                name: "Allergy Relief",
+                name: "Personal Care & Wellness",
                 items: [
-                  { n: "Cetirizine", p: "$4.00" },
-                  { n: "Allergex", p: "$3.50" },
-                  { n: "Avamys Nasal Spray", p: "$14.00" },
-                  { n: "Clarityne", p: "$7.00" },
-                ],
-              },
-              {
-                name: "Mother & Baby",
-                items: [
-                  { n: "NAN Optipro 1", p: "$18.00" },
-                  { n: "Aptamil (Premium)", p: "$26.00" },
-                  { n: "Pampers Premium Care", p: "$22.00" },
-                  { n: "Purity Teething Gel", p: "$3.50" },
-                ],
-              },
-              {
-                name: "Wellness & Supplements",
-                items: [
-                  { n: "Solgar Vitamin C 1000mg (Premium)", p: "$18.00" },
-                  { n: "Vitaforce Multivitamin", p: "$12.00" },
-                  { n: "Omega-3 Fish Oil", p: "$14.00" },
-                  { n: "NutriWomen Wellness Pack", p: "$20.00" },
-                ],
-              },
-              {
-                name: "Skincare & Beauty",
-                items: [
-                  { n: "CeraVe Foaming Cleanser", p: "$22.00" },
-                  { n: "La Roche-Posay Effaclar Duo", p: "$30.00" },
-                  { n: "Bioderma Micellar Water", p: "$16.00" },
-                  { n: "Eucerin Sun Gel-Cream SPF 50+", p: "$25.00" },
-                ],
-              },
-              {
-                name: "Medical Equipment",
-                items: [
-                  { n: "Omron M2 Basic BP Monitor", p: "$45.00" },
-                  { n: "Accu-Chek Glucometer + Strips", p: "$40.00" },
-                  { n: "Digital Oral Thermometer", p: "$6.00" },
-                  { n: "Nebuliser Machine", p: "$35.00" },
+                  { n: "Skincare & Dermatological Products", p: "Available" },
+                  { n: "Sunscreen SPF 30 / 50", p: "Available" },
+                  { n: "Feminine Hygiene Products", p: "Available" },
+                  { n: "Baby Care Essentials", p: "Available" },
+                  { n: "Hand Sanitizers & Face Masks", p: "Available" },
                 ],
               },
             ] as { name: string; items: { n: string; p: string }[] }[]
@@ -467,24 +443,24 @@ export default function Home() {
       <section className={`py-20 bg-popover`}>
         <div className="container mx-auto px-4">
           <h2 className={`text-4xl font-bold text-center text-foreground mb-16`}>
-            Our Seasonal
+            Health & Wellness
             <br />
-            <span className={`text-muted-foreground`}>Exclusive Solutions</span>
+            <span className={`text-muted-foreground`}>Solutions for You</span>
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {[
               {
-                title: "Headache & Migraine Solutions",
+                title: "Pain Relief Solutions",
                 image: "https://ugc.same-assets.com/8XphXz4087R9qHIzuMJlxf55o1cS3RoW.jpeg",
                 color: "#F3E5F5",
               },
               {
-                title: "Cold & Flu Relief",
+                title: "Cold & Flu Care",
                 image: "https://ugc.same-assets.com/G1IBBzyrkLW3aLe_q8q6rDRqeVcNPkp9.jpeg",
                 color: "#E3F2FD",
               },
               {
-                title: "Allergy Relief Essentials",
+                title: "Chronic Disease Management",
                 image: "https://ugc.same-assets.com/Fj4c_U76iqOmMf7PMmrnmvezmuP4AZEd.jpeg",
                 color: "#FFEBEE",
               },
@@ -519,21 +495,21 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <Card className={`bg-primary text-white p-8 overflow-hidden relative`}>
               <div className="relative z-10">
-                <h3 className="text-2xl font-bold mb-2">Tafadzwa Nyamande</h3>
+                <h3 className="text-2xl font-bold mb-2">Professional Pharmacists</h3>
                 <p className={`text-white mb-4`}>
-                  BPharm (UZ), 8+ years experience
+                  Licensed by PCZ
                   <br />
-                  Head Pharmacist — Chronic medication specialist
+                  Prescription dispensing & medication counselling
                 </p>
                 <Button className={`bg-white text-primary hover:bg-gray-100`}>
-                  Contact
+                  Contact Us
                   <ChevronRight className="w-4 h-4 ml-2" />
                 </Button>
               </div>
               <div className="absolute right-0 bottom-0 w-64 h-64">
                 <img
                   src="https://ugc.same-assets.com/lpp198i8E_afBG_8NkUsU7Ds4DVIculR.jpeg"
-                  alt="Doctor"
+                  alt="Pharmacist"
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -541,21 +517,21 @@ export default function Home() {
 
             <Card className={`bg-card p-8 overflow-hidden relative border-border`}>
               <div className="relative z-10">
-                <h3 className={`text-2xl font-bold mb-2 text-foreground`}>Lisa M.</h3>
+                <h3 className={`text-2xl font-bold mb-2 text-foreground`}>Dedicated Support Team</h3>
                 <p className={`text-muted-foreground mb-4`}>
-                  Customer Care Lead
+                  Customer Service
                   <br />
-                  Head of Customer Support
+                  Here to help with your health needs
                 </p>
                 <Button variant="outline" className={`border-border text-muted-foreground hover:bg-popover`}>
-                  Contact
+                  Contact Us
                   <ChevronRight className="w-4 h-4 ml-2" />
                 </Button>
               </div>
               <div className="absolute right-0 bottom-0 w-64 h-64">
                 <img
                   src="https://ugc.same-assets.com/huodsVniB-8JgoyyzyV7xjPr5d2KgeId.jpeg"
-                  alt="Customer care lead"
+                  alt="Customer care"
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -569,27 +545,27 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className={`text-4xl font-bold text-foreground mb-4`}>
-              4.5/5 review from
+              Trusted by Harare
               <br />
-              7,000+ verified customer
+              Communities
             </h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
             {[
               {
-                rating: 3,
-                text: "This pharmacy was incredibly Being accommodating with COVID-19 as a pandemic going on.I recommend this pharmacy, including the FAST pick-up and delivery!",
-                author: "Joe Silva Smith",
+                rating: 5,
+                text: "Excellent service and very professional staff. They always have my chronic medication in stock and the pharmacist takes time to explain everything clearly.",
+                author: "M. Sibanda",
               },
               {
                 rating: 5,
-                text: "This pharmacy was incredibly Being accommodating with COVID-19 as a pandemic going on.I recommend this pharmacy, including the FAST pick-up and delivery!",
-                author: "Joe Silva Smith",
+                text: "Very reliable pharmacy in the CBD. Same-day delivery is a lifesaver when I can't leave the office. Highly recommend Vitamed!",
+                author: "R. Mutasa",
               },
               {
                 rating: 5,
-                text: "This pharmacy was incredibly Being accommodating with COVID-19 as a pandemic going on.I recommend this pharmacy, including the FAST pick-up and delivery!",
-                author: "Joe Silva Smith",
+                text: "Great experience! The team is knowledgeable and friendly. They helped me understand my medication better. Will definitely come back.",
+                author: "T. Ncube",
               },
             ].map((review, index) => (
               <Card key={index} className={`p-6 bg-card border-border`}>
@@ -621,12 +597,12 @@ export default function Home() {
           <div className={`gradient-delivery rounded-3xl p-12 relative overflow-hidden`}>
             <div className="relative z-10 max-w-xl">
               <h2 className={`text-4xl font-bold text-foreground mb-4`}>
-                Same-day delivery across Borrowdale & surrounds
+                Same-day delivery within Harare
                 <br />
-                Delivery: $3–$5 depending on distance
+                Scheduled deliveries for chronic patients
               </h2>
               <Button className={`bg-white text-primary hover:bg-gray-100`}>
-                Order Now
+                WhatsApp Your Prescription
                 <ChevronRight className="w-4 h-4 ml-2" />
               </Button>
             </div>
@@ -650,24 +626,24 @@ export default function Home() {
           <div className="max-w-3xl mx-auto space-y-4">
             {[
               {
-                  q: "Do you deliver?",
-                  a: "Yes — same day in Borrowdale & surrounding suburbs.",
+                  q: "Do you offer delivery?",
+                  a: "Yes — same-day delivery within Harare and scheduled monthly deliveries for chronic patients.",
                 },
                 {
                   q: "Do you accept medical aid?",
-                  a: "Yes, selected schemes.",
+                  a: "Yes, we support selected medical aid providers. Please contact us to confirm your scheme.",
                 },
                 {
-                  q: "Do you do BP and Sugar checks?",
-                  a: "Yes, available anytime during opening hours.",
+                  q: "Do you do blood pressure monitoring?",
+                  a: "Yes, we offer free blood pressure monitoring during operating hours.",
                 },
                 {
-                  q: "Do you stock premium skincare?",
-                  a: "Yes — CeraVe, Bioderma, Eucerin, La Roche-Posay, and more.",
+                  q: "Are you licensed and regulated?",
+                  a: "Yes — we are licensed and regulated by the Pharmacists Council of Zimbabwe (PCZ).",
                 },
                 {
-                  q: "Does the AI voice agent check stock?",
-                  a: "Yes — it provides 24/7 stock and hours information.",
+                  q: "What payment methods do you accept?",
+                  a: "We accept Cash, EcoCash, OneMoney, ZIPIT, and selected Medical Aid Providers.",
                 },
             ].map((faq, index) => (
               <Card key={index} className={`p-6 cursor-pointer hover:shadow-md bg-card border-border`}>
@@ -692,11 +668,11 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
             <div>
               <div className="flex items-center gap-2 mb-4">
-                <img src="/logo.png" alt="Rolf Valley Logo" className="w-10 h-10 rounded-lg object-cover" />
-                <span className="text-xl font-bold">Rolf Valley Pharmacy</span>
+                <img src="/logo.png" alt="Vitamed Pharmacy Logo" className="w-10 h-10 rounded-lg object-cover" />
+                <span className="text-xl font-bold">Vitamed Pharmacy</span>
               </div>
               <p className="text-muted-foreground text-sm">
-                Trusted Care for Your Family.
+                Supporting Better Health, Every Day
               </p>
             </div>
             <div>
@@ -705,20 +681,20 @@ export default function Home() {
                 <div className="flex items-start gap-2">
                   <Phone className="w-4 h-4 mt-1 flex-shrink-0" />
                   <div>
-                    <div>+263 77 889 4411</div>
+                    <div>+263 242 321 890</div>
+                    <div className="text-xs">Main Line</div>
+                  </div>
+                </div>
+                <div className="flex items-start gap-2">
+                  <Phone className="w-4 h-4 mt-1 flex-shrink-0" />
+                  <div>
+                    <div>+263 77 321 0987</div>
                     <div className="text-xs">WhatsApp Available</div>
                   </div>
                 </div>
                 <div className="flex items-start gap-2">
                   <Mail className="w-4 h-4 mt-1 flex-shrink-0" />
-                  <div>info@rolfvalleypharmacy.co.zw</div>
-                </div>
-                <div className="flex items-start gap-2">
-                  <Phone className="w-4 h-4 mt-1 flex-shrink-0" />
-                  <div>
-                    <div className="text-red-400">After-hours AI Voice Agent</div>
-                    <div>+263 71 555 2211</div>
-                  </div>
+                  <div>info@vitamedpharmacy.co.zw</div>
                 </div>
               </div>
             </div>
@@ -729,34 +705,34 @@ export default function Home() {
                   <MapPin className="w-4 h-4 mt-1 flex-shrink-0" />
                   <div>
                     <div className="font-medium text-white">Main Branch</div>
-                    <div>42 Hindhead Avenue, Rolf Valley, Borrowdale, Harare</div>
-                    <div className="text-xs">(Inside Rolf Valley Shopping Centre)</div>
+                    <div>27 Jason Moyo Avenue</div>
+                    <div>Harare CBD, Zimbabwe</div>
                   </div>
                 </div>
               </div>
             </div>
             <div>
-              <h4 className="font-semibold mb-4">Opening Hours</h4>
+              <h4 className="font-semibold mb-4">Operating Hours</h4>
               <div className="space-y-2 text-sm text-gray-400">
                 <div className="flex items-center gap-2">
                   <Clock className="w-4 h-4 flex-shrink-0" />
                   <div>
-                    <div className="font-medium text-white">Mon - Fri</div>
-                    <div>8:00am – 7:00pm</div>
+                    <div className="font-medium text-white">Monday – Friday</div>
+                    <div>8:00 AM – 6:30 PM</div>
                   </div>
                 </div>
                 <div className="flex items-center gap-2">
                   <Clock className="w-4 h-4 flex-shrink-0" />
                   <div>
                     <div className="font-medium text-white">Saturday</div>
-                    <div>8:00am – 5:00pm</div>
+                    <div>8:00 AM – 3:00 PM</div>
                   </div>
                 </div>
                 <div className="flex items-center gap-2">
                   <Clock className="w-4 h-4 flex-shrink-0" />
                   <div>
-                    <div className="font-medium text-white">Sunday</div>
-                    <div>9:00am – 1:00pm</div>
+                    <div className="font-medium text-white">Sunday & Public Holidays</div>
+                    <div>Closed</div>
                   </div>
                 </div>
               </div>
@@ -765,7 +741,7 @@ export default function Home() {
           <div className="border-t border-gray-800 pt-8">
             <div className="flex flex-col md:flex-row items-center justify-between gap-4">
               <p className="text-sm text-gray-400">
-                © 2025 Rolf Valley Pharmacy. All rights reserved.
+                © 2025 Vitamed Pharmacy. All rights reserved. Licensed by Pharmacists Council of Zimbabwe.
               </p>
               <div className="flex items-center gap-6 text-sm text-gray-400">
                 <a href="#" className="hover:text-white">
@@ -782,10 +758,10 @@ export default function Home() {
 
       {/* WhatsApp Floating Button */}
       <a
-        href="https://wa.me/263778894411"
+        href="https://wa.me/263773210987"
         target="_blank"
         rel="noopener noreferrer"
-        aria-label="WhatsApp Rolf Valley Pharmacy"
+        aria-label="WhatsApp Vitamed Pharmacy"
         className={`fixed bottom-6 right-6 w-16 h-16 bg-primary rounded-full flex items-center justify-center shadow-lg transition-colors duration-300 ease-in-out hover:opacity-95 z-50 relative`}
       >
         <span className="absolute -inset-1 rounded-full bg-primary opacity-20 animate-ping"></span>
@@ -804,13 +780,13 @@ export default function Home() {
         <span className="font-medium">Check Stock</span>
       </button>
 
-      {/* Call Voice Agent Button */}
+      {/* Call Pharmacy Button */}
       <a
-        href="tel:+263715552211"
+        href="tel:+263242321890"
         className={`fixed bottom-40 right-6 bg-primary text-white px-6 py-3 rounded-full shadow-lg transition-opacity hover:opacity-90 z-50 flex items-center gap-2`}
       >
         <Phone className="w-5 h-5" />
-        <span className="font-medium">Call 24/7</span>
+        <span className="font-medium">Call Now</span>
       </a>
     </div>
   );

@@ -15,9 +15,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Rolf Valley Pharmacy — Borrowdale, Harare | Trusted Care for Your Family",
+  title: "Vitamed Pharmacy — Harare CBD, Zimbabwe | Supporting Better Health, Every Day",
   description:
-    "Rolf Valley Pharmacy is a neighbourhood pharmacy in Borrowdale offering chronic medication, premium skincare, mother & baby essentials, and same-day delivery with 24/7 stock queries via WhatsApp and AI voice agent.",
+    "Vitamed Pharmacy is a licensed pharmacy in Harare CBD offering prescription dispensing, chronic medication management, wellness support, same-day delivery, and free blood pressure monitoring. Regulated by the Pharmacists Council of Zimbabwe.",
   icons: {
     icon: "/favicon.png",
   },
